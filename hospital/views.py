@@ -846,16 +846,6 @@ def patient_discharge_view(request):
 #------------------------ PATIENT RELATED VIEWS END ------------------------------
 #---------------------------------------------------------------------------------
 
-
-
-
-
-
-
-
-#---------------------------------------------------------------------------------
-#------------------------ ABOUT US AND CONTACT US VIEWS START ------------------------------
-#---------------------------------------------------------------------------------
 def aboutus_view(request):
     return render(request,'hospital/aboutus.html')
 
@@ -871,13 +861,3 @@ def contactus_view(request):
             return render(request, 'hospital/contactussuccess.html')
     return render(request, 'hospital/contactus.html', {'form':sub})
 
-
-#---------------------------------------------------------------------------------
-#------------------------ ADMIN RELATED VIEWS END ------------------------------
-#---------------------------------------------------------------------------------
-
-
-
-#Developed By : sumit kumar
-#facebook : fb.com/sumit.luv
-#Youtube :youtube.com/lazycoders
